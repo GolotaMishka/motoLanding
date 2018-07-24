@@ -1,0 +1,2079 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+ @font-face {
+font-family: "11851";
+src: url("../fonts/11851.ttf") format("truetype");
+font-style: normal;
+font-weight: normal;
+ }
+
+html{
+
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+  body
+  {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: '11851', sans-serif;
+  }
+
+h1{
+  text-align:center;
+  font-size:3.6vw;
+  color:#333333;
+  line-height: 5vw;
+  letter-spacing:2px;
+  }
+h2 {
+  font-size:4vw;
+  color:#333333;
+}
+
+
+header {
+
+  background: url(../img/clouds.png) no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+  height: 100%;
+
+
+}
+
+
+
+
+.inputError{
+
+  color: #d03e3e;
+}
+select.inputError {
+
+  color: #d03e3e;
+}
+.inputError::-webkit-input-placeholder{
+  color: #d03e3e;
+}
+
+
+
+
+
+/*___________ Profile Section __________*/
+
+section#profile_section {
+  display:block;
+  height:100%;
+  background:white;
+  margin-top:10%;
+}
+section#profile_section .image_profile{
+
+}
+section#profile_section .image_profile img{
+
+  display: block;
+  max-width: 85%;
+  height: auto;
+
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  border:1px solid black;
+}
+section#profile_section .rows_button{
+  margin-top:5%;
+}
+
+section#profile_section .description_profile{
+  margin-top:30%;
+}
+section#profile_section .description_profile h3{
+  font-size:5vw;
+}
+section#profile_section .description_profile q {
+    color: #333333; /* Синий цвет текста */
+    quotes: "\0022" "\0022"; /* Кавычки в виде двойных угловых скобок */
+   }
+
+
+section#profile_section_min {
+  display:none;
+  height:100%;
+  margin-bottom:10%;
+  background:white;
+}
+section#profile_section_min .image_profile_min{
+
+}
+section#profile_section_min .image_profile_min img{
+
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius:5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  border:1px solid black;
+}
+
+
+section#profile_section_min .description_profile_min{
+  margin-top:10%;
+}
+section#profile_section_min .description_profile_min h3{
+    font-size: 7vw;
+    line-height: 9vw;
+}
+section#profile_section_min .description_profile_min q {
+    color: #333333; /* Синий цвет текста */
+    quotes: "\0022" "\0022"; /* Кавычки в виде двойных угловых скобок */
+   }
+
+
+
+
+
+.slogan{
+  margin-top:30%;
+}
+.header_button {
+  text-align:center;
+  margin-top:6%;
+}
+.header_button a {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  color: white;
+  padding: 3.3% 3.3%;
+  margin: 1% 1%;
+  border-radius: 5px;
+
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: #99cc99;
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0,0,0,.1);
+  transition: .5s;
+}
+.header_button a:hover {
+  background: #99cc66;
+}
+
+
+
+
+/*________________ MENU __________________*/
+
+
+.navbar-default {
+    border-color: transparent;
+
+}
+
+.navbar-default .navbar-brand {
+    float: left;
+    padding:0;
+
+}
+
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+    color: white;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: rgba(255,255,255,.02);
+
+
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #b6baae;
+    background-color: #99cc99;
+
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #99cc66;
+}
+
+.navbar-default .nav li a {
+
+
+    letter-spacing: 1px;
+    font-size:1vw;
+    margin-right:4vw;
+    color: #cccccc ;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    outline: 0;
+    color: #cccc99;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    color: white;
+    background-color: #99cc99;
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: white;
+    background-color: #99cc66;
+}
+.navbar {
+  background-color:white;
+  height:6%;
+
+}
+
+ /*___________   AIM ________________*/
+
+
+section#aim{
+  display:block;
+  height:100%;
+  padding-top:5%;
+  padding-bottom:5%;
+}
+
+section#aim h2{
+  font-size:4vw;
+  padding-bottom:6%;
+}
+
+
+
+section#aim .withImage{
+
+  background-color: rgba(0,0,0,.6);
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 320px;
+  width: 50%;
+
+}
+section#aim .withoutImage{
+  background-color: white;
+  margin-right:1%;
+  height: 320px;
+  width: 49%;
+}
+section#aim .number p {
+  padding-top:20%;
+  font-size:4.4vw;
+}
+section#aim .description {padding-top:20%;}
+section#aim .description span{
+
+  font-size:2vw;
+  color:white;
+}
+section#aim .first{
+  background-image:url(../img/group.jpg);
+}
+section#aim .second{
+  background-image:url(../img/group2.jpg);
+}
+section#aim .third{
+  background-image:url(../img/group3.jpg);
+
+
+  /*          MIN            */
+}
+section#aim_min{
+  display:none;
+  height:100%;
+  padding-top:5%;
+  padding-bottom:5%;
+}
+
+section#aim_min h2{
+  font-size:7vw;
+  padding-bottom:6%;
+}
+
+
+
+section#aim_min .withImage{
+
+  background-color: rgba(0,0,0,.6);
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 6%;
+  width: 100%;
+
+}
+section#aim_min .withoutImage{
+  background-color: white;
+  margin-right:1%;
+  height: 320px;
+  width: 100%;
+}
+section#aim_min .number p {
+  padding-top:6%;
+  font-size:4.4vw;
+}
+section#aim_min .description {
+      padding-top: 15%;
+    padding-bottom: 15%;
+  }
+section#aim_min .description span{
+
+  font-size:5vw;
+  color:white;
+}
+section#aim_min .first{
+  background-image:url(../img/group.jpg);
+}
+section#aim_min .second{
+  background-image:url(../img/group2.jpg);
+}
+section#aim_min .third{
+  background-image:url(../img/group3.jpg);
+}
+
+
+
+
+
+
+/*______________ Plan _________________*/
+
+
+
+section#plan {
+  display:block;
+  height:100%;
+  padding-top:6%;
+}
+section#plan .when_slogan{
+  padding-top:10%;
+}
+
+
+section#plan .cost_block{
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  border-radius:50px;
+  background: white;
+  color:black;
+  margin-top:6%;
+  margin-bottom:6%;
+}
+section#plan .cost_rows {
+  padding:2%;
+}
+section#plan .icon_block{
+  float:left;
+  padding-top:4%;
+}
+section#plan .content_block{
+  float:left;
+  padding-left:30%;
+}
+section#plan h3{
+  font-size:2vw;
+  font-weight:bold;
+}
+
+section#plan h4{
+  font-size:1.3vw;
+}
+section#plan h5{
+  font-size:4vw;
+  font-weight:bold;
+}
+section#plan h6{
+  font-size:2.2vw;
+}
+
+section#plan .header_button {
+    text-align: center;
+    margin-top: 75%;
+}
+section#plan .header_button a{
+    font-size:1.8vw;
+}
+
+
+section#plan i {
+  padding-top: 50%;
+  padding-left: 215%;
+  font-size:3vw;
+}
+
+
+
+/*_____________ MIN_________________*/
+section#plan_min {
+  display:none;
+  height:100%;
+  padding-top:6%;
+}
+section#plan_min .when_slogan{
+  padding-top:10%;
+}
+
+
+section#plan_min .cost_block{
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  border-radius:50px;
+  background: white;
+  color:black;
+  margin-top:6%;
+  margin-bottom:6%;
+}
+section#plan_min .cost_rows {
+  padding:2%;
+}
+section#plan_min .icon_block{
+  float:left;
+  padding-top:4%;
+}
+section#plan_min .content_block{
+  float:left;
+  padding-left:30%;
+}
+section#plan_min h3{
+  font-size:2vw;
+  font-weight:bold;
+}
+
+section#plan_min h4{
+  font-size:1.3vw;
+}
+section#plan_min h5{
+  font-size:4vw;
+  font-weight:bold;
+}
+section#plan_min h6{
+  font-size:2.2vw;
+}
+
+section#plan_min .header_button {
+    text-align: center;
+    margin-top: 5%;
+}
+section#plan_min .header_button a{
+    font-size:1.8vw;
+}
+
+
+section#plan_min i {
+  padding-top: 50%;
+  padding-left: 215%;
+  font-size:3vw;
+}
+
+/*______________ Price _________________*/
+
+
+
+section#price{
+  background:white;
+  background-size: cover;
+  height:100%;
+}
+section#price .price_slogan{
+  font-family: '11851', sans-serif;
+  font-size:3vw;
+  line-height: 4vw;
+  letter-spacing:2px;
+}
+
+
+section#price .price_block{
+  padding:2%;
+  background:#99cc99;
+  height:150px;
+  border-radius:100px;
+
+
+
+}
+section#price .price_block h2{
+  font-size:4vw;
+  font-weight:bold;
+}
+section#price .price_block span{
+  font-size:1vw;
+}
+/*______________ FORM SECTION _________________*/
+
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+section#form_section{
+  background:white;
+  background-size: cover;
+  height:100%;
+}
+section#form_section .slogan_form{
+  text-align:center;
+}
+
+
+#feedback-page{
+  text-align:center;
+}
+
+#form-main{
+  width:100%;
+  padding-top:0px;
+}
+
+#form-div {
+  text-align:center;
+  background-color:#f1f0f0;
+  padding-left:3%;
+  padding-right:3%;
+  padding-top:3%;
+  padding-bottom:4.5%;
+  width: 50%;
+  position: absolute;
+  margin-top:6%;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+}
+
+.feedback-input ,select{
+  color:#3c3c3c;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 1.1vw;
+  border-radius: 0;
+  line-height: 22px;
+  background-color: #fbfbfb;
+  padding: 2% 2% 2% 8%;
+  margin-bottom: 3%;
+  width:100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 3px solid rgba(0,0,0,0);
+}
+
+.feedback-input:focus ,select:focus {
+  background: #fff;
+  box-shadow: 0;
+  border: 3px solid #99cc99;
+  color: #333333;
+  outline: none;
+  padding: 2% 2% 2% 8%;
+}
+
+.focused{
+  color:#30aed6;
+  border:#99cc99 solid 3px;
+}
+
+/* Icons ---------------------------------- */
+#name, #phone, #email, #level {
+  background-size: 1.2vw 1.2vw;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+#name{background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);}
+
+
+#phone{background-image: url(../img/phone.png);}
+
+#email{background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);}
+
+#level{background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);}
+
+
+
+
+
+#button-blue{
+  float:left;
+  width: 100%;
+  border: #fbfbfb solid 4px;
+  cursor:pointer;
+  background-color: #99cc99;
+  color:white;
+  font-size:1.5vw;
+  padding-top:22px;
+  padding-bottom:22px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+#button-blue:hover{
+  background-color: white;
+  color: #99cc99;
+}
+
+.submit:hover {
+  color: #3498db;
+}
+
+.ease {
+  width: 0px;
+  height: 74px;
+  background-color: #fbfbfb;
+  -webkit-transition: .3s ease;
+  -moz-transition: .3s ease;
+  -o-transition: .3s ease;
+  -ms-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.submit:hover .ease{
+  width:100%;
+  background-color:white;
+}
+
+@media only screen and (max-width: 580px) {
+  #form-div{
+    left: 3%;
+    margin-right: 3%;
+    width: 88%;
+    margin-left: 0;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+
+
+
+/*______________ Map _________*/
+
+
+section#map {
+  height:100%;
+}
+
+
+
+
+
+
+  /*___________FOOTER____________*/
+
+
+  section#contacts_section{
+  height:100%;
+  background-color:white;
+  padding-bottom:2%;
+
+}
+section#contacts_section h3{
+  color:#333333;
+  font-size:2vw;
+}
+section#contacts_section p{
+  color:#cccccc;
+  font-size:1.2vw;
+}
+
+
+
+section#contacts_section #map {
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  margin-top:3%;
+}
+section#contacts_section .follow{
+  margin-top:1%;
+}
+section#contacts_section .follow i{
+
+  color:#1c1b20;
+  font-size: 2.3em;
+}
+section#contacts_section .follow a{
+
+  text-decoration: none;
+}
+
+section#contacts_section .follow i:nth-child(1){
+  margin-right:3%;
+  margin-left:3%;
+
+}
+
+section#contacts_section .follow i:hover{
+  color:#99cc99;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+
+
+
+
+/*___________________ MODAL WINDOW ___________________________*/
+
+
+
+#modal_form {
+  width:56%;
+  height: 300px; /* Рaзмеры дoлжны быть фиксирoвaны */
+  border-radius: 5px;
+  border: 3px #000 solid;
+  background: #fff;
+  position: fixed; /* чтoбы oкнo былo в видимoй зoне в любoм месте */
+
+   /* пoлoвинa экрaнa слевa */
+ /* тут вся мaгия центрoвки css, oтступaем влевo и вверх минус пoлoвину ширины и высoты сooтветственнo =) */
+  display: none; /* в oбычнoм сoстoянии oкнa не дoлжнo быть */
+  opacity: 0; /* пoлнoстью прoзрaчнo для aнимирoвaния */
+  z-index: 5; /* oкнo дoлжнo быть нaибoлее бoльшем слoе */
+  padding: 20px 10px;
+}
+/* Кнoпкa зaкрыть для тех ктo в тaнке) */
+ #modal_close {
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  display: block;
+}
+/* Пoдлoжкa */
+#overlay {
+  z-index:3; /* пoдлoжкa дoлжнa быть выше слoев элементoв сaйтa, нo ниже слoя мoдaльнoгo oкнa */
+  position:fixed; /* всегдa перекрывaет весь сaйт */
+  background-color:#000; /* чернaя */
+  opacity:0.8; /* нo немнoгo прoзрaчнa */
+  -moz-opacity:0.8; /* фикс прозрачности для старых браузеров */
+  filter:alpha(opacity=80);
+  width:100%;
+  height:100%; /* рaзмерoм вo весь экрaн */
+  top:0; /* сверху и слевa 0, oбязaтельные свoйствa! */
+  left:0;
+  cursor:pointer;
+  display:none; /* в oбычнoм сoстoянии её нет) */
+}
+.successful{
+  color:black;
+  font-size:3vw;
+  padding-top:10%;
+  padding-left:5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:0px) and (max-width:320px){
+
+.navbar-toggle {
+
+    padding: 7px 7px;
+    margin-top: 12px;
+}
+.navbar-default .nav{background-color:#f3f3f3}
+.navbar-default .nav li a {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #333333;
+    font-size:5vw;
+    padding:2%;
+}
+
+header{
+  height:210px;
+  margin-top:15%;
+
+}
+header h1{
+  font-size: 7.5vw;
+  line-height: 10vw;
+  letter-spacing: 2px;
+  }
+header .header_button{
+  margin-top:20%;
+  padding:2%;
+  font-size:3.7vw;
+  letter-spacing:1px;
+}
+
+header .slogan {
+    margin-top: 35%;
+}
+section#profile_section {
+    display:none;
+}
+
+section#profile_section_min{
+  display:block;
+}
+section#aim h2 {
+    font-size: 8vw;
+}
+
+section#plan h2{
+  font-size:8vw;
+}
+section#aim {
+    display:none;
+}
+
+section#plan{
+  display:none;
+}
+section#aim_min {
+    display:block;
+}
+
+section#plan_min{
+  display:block;
+}
+
+section#plan_min .cost_block{
+  border-radius:20px;
+  margin-top:20%;
+  margin-bottom:20%;
+}
+section#plan_min h3 {
+    font-size: 7vw;
+}
+section#plan_min h4 {
+    font-size: 5vw;
+}
+
+section#plan_min h5 {
+    font-size: 7vw;
+}
+section#plan_min h6 {
+    font-size: 4.5vw;
+}
+section#plan_min i {
+  padding-top:100%;
+  padding-left:24%;
+    font-size: 8vw;
+}
+
+section#plan_min .header_button {
+    margin-top:14%;
+}
+section#plan_min .header_button a {
+    font-size: 4vw;
+    letter-spacing:0px;
+}
+
+section#plan_min .content_block {
+    padding-left: 22%;
+
+}
+
+section#plan_min .when_slogan {
+    padding-top: 25%;
+}
+
+
+
+section#form_section {
+    height:100%;
+  margin-bottom:100%;
+}
+section#form_section h2{
+  font-size:8vw;
+  letter-spacing:0px;
+}
+
+#form-div {
+
+    left: -10%;
+    margin-right: 0%;
+    width: 70%;
+    margin-left: 0;
+    padding-left: 2%;
+    padding-right: 3%;
+}
+
+.feedback-input, select {
+    color: #3c3c3c;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 4.6vw;
+    border-radius: 0;
+    line-height: 19px;
+    background-color: #fbfbfb;
+    padding: 2% 2% 2% 8%;
+
+}
+
+#name, #phone, #email, #level {
+    background-size: 0vw;
+
+}
+#button-blue {
+    float: inherit;
+    width: 50%;
+    font-size: 2.5vw;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 700;
+}
+.submit:hover .ease {
+    width: 0%;
+
+    background-color: white;
+}
+.ease{
+  height:0%;
+}
+section#contacts_section{
+  margin-top:10%;
+}
+
+section#contacts_section h3{
+  font-size:5vw;
+}
+section#contacts_section p{
+  font-size:3.8vw;
+}
+section#contacts_section .follow i{
+  font-size:2em;
+}
+
+#modal_form {
+  height: 100px;
+}
+
+.successful {
+    font-size: 6vw;
+    padding-top: 16%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+@media(min-width:321px) and (max-width:480px){
+.navbar-toggle {
+
+    padding: 7px 7px;
+    margin-top: 12px;
+}
+.navbar-default .nav{background-color:#f3f3f3}
+.navbar-default .nav li a {
+    letter-spacing: 1px;
+    color: #333333;
+    font-size:3vw;
+    padding:1%;
+}
+header{
+  height:100%;
+  margin-top:10%;
+  padding-bottom:7%;
+}
+header h1{
+  font-size: 7.5vw;
+    letter-spacing: 4px;
+    line-height: 7.2vw;
+  }
+header .header_button{
+  margin-top: 25%;
+  padding:0%;
+  font-size:3.2vw;
+  letter-spacing:1px;
+}
+header .slogan {
+    margin-top: 20%;
+}
+
+
+header .header_button a {padding: 2.3% 2.3%;}
+
+
+section#when .when_slogan {
+    padding-top: 12%;
+    padding-bottom: 7%;
+    text-align: center;
+}
+
+section#when .when_slogan h4{
+    font-size:7vw;
+    letter-spacing:0px;
+}
+
+section#when .header_button{
+  font-size:3.7vw;
+  letter-spacing:1px;
+}
+
+section#when .header_button a{
+  padding: 5.3% 5.3%;
+}
+section#profile_section {
+    display:none;
+}
+
+section#profile_section_min{
+  display:block;
+}
+section#aim {
+    display:none;
+}
+
+section#plan{
+  display:none;
+}
+section#aim_min {
+    display:block;
+}
+
+section#plan_min{
+  display:block;
+}
+
+
+section#aim_min .number p {
+    padding-top: 6%;
+    font-size: 6.4vw;
+}
+
+
+section#plan h2{
+  font-size:7vw;
+}
+
+
+
+section#plan_min .cost_block {
+  border-radius:10px;
+  margin-bottom:30%;
+}
+section#plan_min .content_block {
+    padding-left: 24%;
+}
+
+section#plan_min h3 {
+    font-size: 5vw;
+}
+section#plan_min h4 {
+    font-size: 4vw;
+}
+
+section#plan_min h5 {
+    font-size: 6vw;
+}
+section#plan_min h6 {
+    font-size: 4vw;
+}
+
+
+section#plan_min i {
+    padding-top: 110%;
+    padding-left: 80%;
+    font-size: 6vw;
+}
+section#plan_min .header_button{
+    margin-top:20%;
+    margin-bottom:20%;
+
+}
+section#plan_min .header_button a {
+    font-size: 2.8vw;
+}
+
+
+section#form_section {
+    height: 100%;
+  margin-bottom:82%;
+}
+section#form_section h2{
+  font-size:7vw;
+  letter-spacing:0px;
+}
+
+#form-div {
+
+    left: -8%;
+    margin-right: 0%;
+    width: 68%;
+    margin-left: 0;
+    padding-left: 2%;
+    padding-right: 3%;
+}
+
+.feedback-input, select {
+    color: #3c3c3c;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 4vw;
+    border-radius: 0;
+    line-height: 19px;
+    background-color: #fbfbfb;
+    padding: 2% 2% 2% 8%;
+
+}
+
+#name, #phone, #email, #level {
+    background-size: 0vw;
+
+}
+#button-blue {
+    float: inherit;
+    width: 50%;
+    font-size: 2.5vw;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 700;
+}
+.submit:hover .ease {
+    width: 0%;
+
+    background-color: white;
+}
+.ease{
+  height:0%;
+}
+
+section#contacts_section{
+  margin-top:5%;
+}
+section#contacts_section h3{
+  font-size:4.4vw;
+}
+section#contacts_section p{
+  font-size:3.2vw;
+}
+section#contacts_section .follow i{
+  font-size:2em;
+}
+
+#modal_form {
+  height: 136px;
+}
+
+.successful {
+    font-size: 6vw;
+    padding-top: 16%;
+}
+
+}
+
+
+
+
+@media(min-width:481px) and (max-width:768px){
+.navbar-toggle {
+
+    padding: 7px 7px;
+    margin-top: 12px;
+}
+.navbar-default .nav{background-color:#f3f3f3}
+.navbar-default .nav li a {
+    letter-spacing: 1px;
+    color: #333333;
+    font-size:2vw;
+    padding:1%;
+}
+header{
+  height:400px;
+  margin-top:6%;
+
+}
+header h1{
+  font-size: 6vw;
+  letter-spacing: 1px;
+  }
+
+  .slogan {
+    margin-top: 35%;
+}
+header .header_button{
+  padding:2%;
+  font-size:1.8vw;
+  letter-spacing:1px;
+}
+
+section#when .when_slogan {
+    padding-top: 12%;
+    padding-bottom: 7%;
+    text-align: center;
+}
+
+section#when .when_slogan h4{
+    font-size:7vw;
+    letter-spacing:0px;
+}
+
+section#when .header_button{
+  font-size:2.7vw;
+  letter-spacing:1px;
+}
+
+section#when .header_button a{
+  padding: 3.3% 3.3%;
+}
+section#profile_section {
+    display:none;
+}
+
+section#profile_section_min{
+  display:block;
+}
+section#aim {
+    display:none;
+}
+
+section#plan{
+  display:none;
+}
+section#aim_min {
+    display:block;
+}
+
+section#plan_min{
+  display:block;
+}
+
+
+
+section#aim_min .number p {
+    font-size: 6.4vw;
+}
+section#aim_min .description span{
+  font-size: 4vw;
+}
+
+section#plan_min .header_button {
+    margin-top: 16%;
+    margin-bottom: 16%;
+}
+section#plan_min .header_button a{
+    font-size:2.5vw;
+    letter-spacing:0px;
+}
+section#plan_min h2 {
+    font-size: 5.6vw;
+}
+section#plan_min .cost_block {
+  border-radius:20px;
+  margin-bottom:25%;
+}
+section#plan_min h3 {
+    font-size: 4vw;
+}
+section#plan_min h4 {
+    font-size: 3.3vw;
+}
+
+section#plan_min h5 {
+    font-size: 5.6vw;
+}
+section#plan_min h6 {
+    font-size: 3.5vw;
+}
+
+section#plan_min i {
+    font-size: 5vw;
+}
+
+
+
+
+section#form_section {
+    height:100%;
+  margin-top:6%;
+  margin-bottom:56%;
+}
+section#form_section h2{
+  font-size:6vw;
+  letter-spacing:0px;
+}
+
+#form-div {
+
+    left: 0%;
+    margin-right: 0%;
+    width: 50%;
+    margin-left: 0;
+    padding-left: 2%;
+    padding-right: 3%;
+}
+
+.feedback-input, select {
+    color: #3c3c3c;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 2.4vw;
+    border-radius: 0;
+    line-height: 19px;
+    background-color: #fbfbfb;
+    padding: 2% 2% 2% 8%;
+
+}
+
+#name, #phone, #email, #level {
+    background-size: 0vw;
+
+}
+#button-blue {
+    float: inherit;
+    width: 50%;
+    font-size: 2.5vw;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 700;
+}
+.submit:hover .ease {
+    width: 0%;
+
+    background-color: white;
+}
+.ease{
+  height:0%;
+}
+
+section#contacts_section{
+  margin-top:8%;
+}
+section#contacts_section h3{
+  font-size:4vw;
+}
+section#contacts_section p{
+  font-size:3vw;
+}
+section#contacts_section .follow i{
+  font-size:1.3em;
+}
+
+#modal_form {
+  height: 160px;
+}
+
+.successful {
+    font-size: 5vw;
+    padding-top: 12%;
+}
+
+
+}
+
+
+@media(min-width:769px) and (max-width:992px){
+.navbar-toggle {
+
+    padding: 7px 7px;
+    margin-top: 12px;
+}
+.navbar-default .nav{background-color:#f3f3f3}
+.navbar-default .nav li a {
+    letter-spacing: 1px;
+    color: #333333;
+    font-size:2vw;
+    padding:1%;
+}
+header{
+  height:450px;
+  margin-top:5%;
+
+}
+header h1{
+  font-size: 6vw;
+  letter-spacing: 2px;
+  }
+header .header_button{
+  padding:2%;
+  font-size:1.6vw;
+  letter-spacing:1px;
+}
+section#when .when_slogan h4{
+    font-size:6vw;
+    letter-spacing:0px;
+}
+section#profile_section {
+    display:none;
+}
+
+section#profile_section_min{
+  display:block;
+}
+section#aim_min h2 {
+    font-size: 6vw;
+    padding-bottom: 6%;
+}
+
+section#aim {
+    display:none;
+}
+
+section#plan{
+  display:none;
+}
+section#aim_min {
+    display:block;
+}
+
+section#plan_min{
+  display:block;
+}
+
+
+section#aim_min .number p {
+    padding-top: 6%;
+    padding-bottom: 6%;
+    font-size: 5vw;
+}
+
+section#aim_min .description span {
+    font-size: 4vw;
+}
+
+section#plan_min h2{
+  font-size: 5vw;
+}
+section#plan_min .cost_block {
+    border-radius: 10px;
+    margin-bottom:16%;
+}
+section#plan_min h3 {
+    font-size: 3.5vw;
+}
+section#plan_min h4 {
+    font-size: 2.3vw;
+}
+section#plan_min h5 {
+    font-size: 5vw;
+}
+section#plan_min h6 {
+    font-size: 3vw;
+}
+section#plan_min i {
+    padding-top: 50%;
+    padding-left: 215%;
+    font-size: 3.5vw;
+}
+
+section#plan_min .header_button {
+    margin-top:10%;
+    margin-bottom:10%;
+}
+section#plan_min .header_button a {
+    font-size: 1.6vw;
+    letter-spacing:0px;
+    padding: 2.3% 2.3%;
+}
+
+section#profile_section_min .description_profile_min h3 {
+    font-size: 6vw;
+}
+
+
+section#form_section {
+    height:100%;
+  margin-bottom:54%;
+}
+section#form_section h2{
+  font-size:5vw;
+  letter-spacing:0px;
+}
+
+#form-div {
+
+    left: 0%;
+    margin-right: 0%;
+    width: 50%;
+    margin-left: 0;
+    padding-left: 2%;
+    padding-right: 3%;
+}
+
+.feedback-input, select {
+    color: #3c3c3c;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 2.4vw;
+    border-radius: 0;
+    line-height: 19px;
+    background-color: #fbfbfb;
+    padding: 2% 2% 2% 8%;
+
+}
+
+#name, #phone, #email, #level {
+    background-size: 0vw;
+
+}
+#button-blue {
+    float: inherit;
+    width: 50%;
+    font-size: 2.5vw;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 700;
+}
+.submit:hover .ease {
+    width: 0%;
+
+    background-color: white;
+}
+.ease{
+  height:0%;
+}
+
+section#contacts_section{
+  margin-top:6%;
+}
+section#contacts_section h3{
+  font-size:3.2vw;
+}
+section#contacts_section p{
+  font-size:2.2vw;
+}
+section#contacts_section .follow i{
+  font-size:1.5em;
+}
+#modal_form {
+  height: 180px;
+}
+
+.successful {
+    font-size: 4.5vw;
+    padding-top: 10%;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+@media(min-width:993px) and (max-width:1099px){
+.navbar-default .nav li a {
+
+
+    letter-spacing: 1px;
+    font-size:2vw;
+    margin-right:4vw;
+    color: #333333 ;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    outline: 0;
+    color: #cccc99;
+}
+.navbar-default .nav{background-color:#f3f3f3}
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    color: white;
+    background-color: #99cc99;
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: white;
+    background-color: #99cc66;
+}
+.navbar {
+  background-color:white;
+  height:6%;
+
+}
+header{
+  height:570px;
+
+
+}
+header h1{
+  font-size: 5.6vw;
+  letter-spacing: 2px;
+  }
+
+
+
+section#aim .description{
+  padding-top:28%;
+}
+
+section#plan .header_button{
+  margin-top:96%;
+}
+section#plan .header_button a{
+  font-size:2vw;
+  letter-spacing:0px;
+}
+section#plan .cost_block {
+    border-radius:20px;
+}
+section#plan .content_block {
+    padding-left: 20%;
+}
+section#plan h3 {
+    font-size: 2vw;
+}
+section#plan h4 {
+    font-size: 1.6vw;
+}
+section#plan i {
+    font-size: 2.5vw;
+    padding-top:55%;
+    padding-left:135%;
+}
+
+
+
+
+section#form_section {
+  height:100%;
+  margin-bottom:50%;
+}
+section#form_section h2{
+  font-size:4vw;
+  letter-spacing:0px;
+}
+
+#form-div {
+
+    left: 0%;
+    margin-right: 0%;
+    width: 50%;
+    margin-left: 0;
+    padding-left: 2%;
+    padding-right: 3%;
+}
+
+.feedback-input, select {
+    color: #3c3c3c;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 2vw;
+    border-radius: 0;
+    line-height: 19px;
+    background-color: #fbfbfb;
+    padding: 2% 2% 2% 8%;
+
+}
+
+#name, #phone, #email, #level {
+    background-size: 0vw;
+
+}
+#button-blue {
+    float: inherit;
+    width: 50%;
+    font-size: 2.5vw;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 700;
+}
+.submit:hover .ease {
+    width: 0%;
+
+    background-color: white;
+}
+.ease{
+  height:0%;
+}
+
+section#contacts_section{
+  margin-top:6%;
+}
+
+section#contacts_section h3{
+  font-size:2.8vw;
+}
+section#contacts_section p{
+  font-size:1.8vw;
+}
+section#contacts_section .follow i{
+  font-size:1.7em;
+}
+#modal_form {
+  height: 220px;
+}
+
+.successful {
+    font-size: 4vw;
+    padding-top: 10%;
+}
+
+
+}
+
+
+@media(min-width:1100px) and (max-width:1200px){
+.navbar-default .nav li a {
+
+
+    letter-spacing: 1px;
+    font-size:1vw;
+    margin-right:4vw;
+    color: #cccccc ;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    outline: 0;
+    color: #cccc99;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    color: white;
+    background-color: #99cc99;
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: white;
+    background-color: #99cc66;
+}
+.navbar {
+  background-color:white;
+  height:6%;
+
+}
+header{
+  height:570px;
+
+
+}
+header h1{
+  font-size: 5vw;
+  letter-spacing: 2px;
+  }
+header .header_button{
+  padding:2%;
+  font-size:1.2vw;
+  letter-spacing:1px;
+}
+
+section#plan i {
+    padding-top: 50%;
+    padding-left: 135%;
+    font-size: 2.5vw;
+}
+
+section#plan .cost_block {
+    border-radius: 20px;
+}
+section#plan .header_button a {
+    font-size: 1.6vw;
+    letter-spacing:0px;
+}
+section#plan .header_button {
+    margin-top: 80%;
+}
+section#profile_section{
+  height:100%;
+  margin-bottom:10%;
+}
+section#profile_section .image_profile {
+  padding-top:0%;
+}
+section#profile_section .description_profile h3 {
+    font-size: 4.4vw;
+    line-height:5vw;
+}
+section#profile_section .description_profile {
+    margin-top:34%;
+}
+
+
+section#form_section {
+  height:100%;
+  margin-bottom:46%;
+}
+section#form_section h2{
+  font-size:4vw;
+  letter-spacing:2px;
+}
+
+#form-div {
+
+    left: 0%;
+    margin-right: 0%;
+    width: 50%;
+    margin-left: 0;
+    padding-left: 2%;
+    padding-right: 3%;
+}
+
+.feedback-input, select {
+    color: #3c3c3c;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.6vw;
+    border-radius: 0;
+    line-height: 19px;
+    background-color: #fbfbfb;
+    padding: 2% 2% 2% 8%;
+
+}
+
+#name, #phone, #email, #level {
+    background-size: 0vw;
+
+}
+#button-blue {
+    float: inherit;
+    width: 50%;
+    font-size: 2vw;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 700;
+}
+.submit:hover .ease {
+    width: 0%;
+
+    background-color: white;
+}
+.ease{
+  height:0%;
+}
+
+section#contacts_section{
+  margin-top:6%;
+}
+section#contacts_section h3{
+  font-size:2.8vw;
+}
+section#contacts_section p{
+  font-size:1.5vw;
+}
+section#contacts_section .follow i{
+  font-size:1.5em;
+}
+#modal_form {
+  height: 230px;
+}
+
+.successful {
+    font-size: 4vw;
+    padding-top: 8%;
+}
+}
+
+
+
+
+
+@media(min-width:1201px) and (max-width:1600px){
+ .navbar-default .nav li a {
+
+
+    letter-spacing: 1px;
+    font-size:1vw;
+    margin-right:4vw;
+    color: #cccccc ;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    outline: 0;
+    color: #cccc99;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    color: white;
+    background-color: #99cc99;
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: white;
+    background-color: #99cc66;
+}
+.navbar {
+  background-color:white;
+
+}
+header{
+  height:630px;
+
+
+}
+header h1{
+  font-size: 4.8vw;
+  letter-spacing: 2px;
+  }
+header .header_button{margin-top: 8%;}
+
+section#plan i {
+    padding-top: 50%;
+    padding-left: 115%;
+    font-size: 2.5vw;
+}
+
+
+section#profile_section{
+  height:100%;
+  margin-bottom:10%;
+}
+section#profile_section .image_profile {
+  padding-top:0%;
+}
+section#profile_section .description_profile h3 {
+    font-size: 4.4vw;
+    line-height:5vw;
+}
+
+section#review_section h2 {
+    font-size:7vw;
+}
+section#review_section .review_row {
+    margin-top:3%;
+}
+
+section#review_section a {
+    font-size: 2.6vw;
+}
+section#review_section p {
+    font-size: 1.2vw;
+
+}
+
+section#review_section {
+  height:100%;
+  margin-bottom:10%;
+}
+
+section#form_section {
+  height:100%;
+  margin-bottom:40%;
+}
+section#form_section h2{
+  font-size:4vw;
+  letter-spacing:2px;
+}
+
+#form-div {
+
+    left: 0%;
+    margin-right: 0%;
+    width: 50%;
+    margin-left: 0;
+    padding-left: 2%;
+    padding-right: 3%;
+}
+
+.feedback-input, select {
+    color: #3c3c3c;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.4vw;
+    border-radius: 0;
+    line-height: 19px;
+    background-color: #fbfbfb;
+    padding: 2% 2% 2% 8%;
+
+}
+
+#name, #phone, #email, #level {
+    background-size: 0vw;
+
+}
+#button-blue {
+    float: inherit;
+    width: 50%;
+    font-size: 1.5vw;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 700;
+}
+.submit:hover .ease {
+    width: 0%;
+
+    background-color: white;
+}
+.ease{
+  height:0%;
+}
+
+section#contacts_section {
+  margin-top:6%;
+}
+section#contacts_section h3{
+  font-size:2.5vw;
+}
+section#contacts_section p{
+  font-size:1.2vw;
+}
+section#contacts_section .follow i{
+  font-size:1.5em;
+}
+#modal_form {
+  height: 250px;
+}
+
+.successful {
+    font-size: 4vw;
+    padding-top: 8%;
+}
+
+}
+
+

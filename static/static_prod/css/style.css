@@ -1,0 +1,613 @@
+
+ @font-face {
+font-family: "11851";
+src: url("../fonts/11851.ttf") format("truetype");
+font-style: normal;
+font-weight: normal;
+ }
+
+html{
+
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+  body
+  {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: '11851', sans-serif;
+  }
+
+h1{
+  text-align:center;
+  font-size:3.6vw;
+  color:#333333;
+  line-height: 5vw;
+  letter-spacing:2px;
+  }
+h2 {
+  font-size:4vw;
+  color:#333333;
+}
+
+
+
+header {
+  background:#fff;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+  height: 50%;
+}
+
+
+header .slogan{
+  margin-top:22%;
+  margin-bottom:22%;
+
+}
+
+
+
+  /*______________ Courses _________*/
+
+
+section#courses{
+  display:block;
+  height:100%;
+  color:white;
+  padding-top:5%;
+  padding-bottom:10%;
+}
+
+
+section#courses #courseFace{
+  background-image: url(../img/faceToFace.jpg);
+  background-color: rgba(0,0,0,.6);
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right:1%;
+  height: 320px;
+  width: 49%;
+
+}
+
+section#courses #courseGroup{
+  background-image: url(../img/group.jpg);
+  background-color: rgba(0,0,0,.6);
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left:1%;
+  height: 320px;
+  width: 49%;
+}
+section#courses #description_course_face , section#courses #description_course_group {
+  padding-top:2%;
+  display:none;
+}
+section#courses #description_course_face span , section#courses #description_course_group span{
+  font-size:1.6vw;
+}
+section#courses #short_descript_face p , section#courses #short_descript_group p {
+  padding-top:22%;
+  font-size:2.2vw;
+}
+section#courses .course_button {
+  text-align:center;
+  margin-top:6%;
+}
+section#courses .course_button a {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  color: white;
+  padding: 3.3% 3.3%;
+  margin: 1% 1%;
+  border-radius: 5px;
+
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: #99cc99;
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0,0,0,.1);
+  transition: .5s;
+}
+section#courses .course_button a:hover {
+  background: #99cc66;
+}
+
+
+/*____________________Min____________________________ */
+section#courses_min{
+  display:none;
+  height:100%;
+  color:white;
+  padding-top:5%;
+  padding-bottom:10%;
+}
+
+section#courses_min .row_courses{
+
+}
+
+section#courses_min #courseFace_min{
+  background-image: url(../img/faceToFace.jpg);
+  background-color: rgba(0,0,0,.6);
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom:3%;
+  margin-left:5%;
+  height: 210px;
+  width: 90%;
+
+}
+
+section#courses_min #courseGroup_min{
+  background-image: url(../img/group.jpg);
+  background-color: rgba(0,0,0,.6);
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left:5%;
+  height: 210px;
+  width: 90%;
+}
+section#courses_min #description_course_face_min , section#courses_min #description_course_group_min {
+  padding-top:2%;
+  display:none;
+}
+section#courses_min #description_course_face_min span , section#courses_min #description_course_group_min span{
+  font-size:4.5vw;
+}
+section#courses_min #short_descript_face_min p , section#courses_min #short_descript_group_min p {
+  padding-top:40%;
+  font-size:6.2vw;
+}
+section#courses_min .course_button {
+  text-align:center;
+  margin-top:6%;
+}
+section#courses_min .course_button a {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  color: white;
+  padding: 3.3% 3.3%;
+  margin: 1% 1%;
+  border-radius: 5px;
+
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: #99cc99;
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0,0,0,.1);
+  transition: .5s;
+}
+section#courses_min .course_button a:hover {
+  background: #99cc66;
+}
+
+
+
+
+/*___________ Profile Section __________*/
+
+section#profile_section {
+  display:block;
+  height:100%;
+  background:white;
+}
+section#profile_section .image_profile{
+
+}
+section#profile_section .image_profile img{
+
+  display: block;
+  max-width: 85%;
+  height: auto;
+  border-radius:300px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  border:1px solid black;
+}
+section#profile_section .rows_button{
+  margin-top:5%;
+}
+
+section#profile_section .description_profile{
+  margin-top:50%;
+}
+section#profile_section .description_profile h3{
+  font-size:2vw;
+}
+section#profile_section .description_profile q {
+    color: #333333; /* Синий цвет текста */
+    quotes: "\0022" "\0022"; /* Кавычки в виде двойных угловых скобок */
+   }
+
+
+section#profile_section_min {
+  display:none;
+  height:100%;
+  margin-bottom:10%;
+  background:white;
+}
+section#profile_section_min .image_profile_min{
+
+}
+section#profile_section_min .image_profile_min img{
+
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius:300px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  border:1px solid black;
+}
+
+
+section#profile_section_min .description_profile_min{
+  margin-top:10%;
+}
+section#profile_section_min .description_profile_min h3{
+    font-size: 2.6vw;
+    line-height: 3.3vw;
+}
+section#profile_section_min .description_profile_min q {
+    color: #333333; /* Синий цвет текста */
+    quotes: "\0022" "\0022"; /* Кавычки в виде двойных угловых скобок */
+   }
+
+
+
+
+
+
+
+@media(min-width:0px) and (max-width:320px){
+
+header{
+  margin-top:15%;
+
+}
+header h1{
+  font-size: 6.5vw;
+  letter-spacing: 0px;
+  }
+
+
+header .slogan {
+
+    margin-bottom: 26%;
+}
+
+
+section#courses {
+  display:none;
+}
+section#courses_min {
+  display:block;
+}
+section#profile_section{
+  display:none;
+  }
+section#profile_section_min{
+  display:block;
+  height:100%;
+  margin-bottom:10%;
+  }
+section#profile_section_min .image_profile_min {
+  padding-top:10%;
+}
+section#profile_section_min .description_profile_min h3 {
+    font-size: 4.6vw;
+    line-height:5vw;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+@media(min-width:321px) and (max-width:480px){
+
+header{
+  height:100%;
+  margin-top:10%;
+  padding-bottom:8%;
+}
+header h1{
+  font-size: 6.5vw;
+    letter-spacing: 0px;
+    line-height: 5.2vw;
+  }
+
+header .slogan {
+    margin-top: 16%;
+}
+section#courses {
+  display:none;
+}
+section#courses_min {
+  display:block;
+}
+section#courses_min #courseFace_min {
+    height: 270px;
+}
+section#courses_min #courseGroup_min {
+    height: 320px;
+}
+
+section#courses_min #short_descript_face_min p, section#courses_min #short_descript_group_min p {
+    padding-top: 35%;
+}
+
+section#profile_section{
+  display:none;
+  }
+
+section#profile_section_min{
+  display:block;
+  height: 100%;
+  margin-bottom:10%;
+}
+section#profile_section_min .image_profile_min {
+  padding-top:10%;
+}
+section#profile_section_min .description_profile_min h3 {
+    font-size: 4.4vw;
+    line-height:5vw;
+}
+
+
+}
+
+
+
+
+@media(min-width:481px) and (max-width:768px){
+
+header{
+  height:100%;
+  margin-top:6%;
+
+}
+header h1{
+  font-size: 5.5vw;
+  letter-spacing: 1px;
+  }
+section#courses {
+  display:none;
+}
+section#courses_min {
+  display:block;
+}
+
+section#courses_min #courseGroup_min {
+  height: 320px;
+}
+section#courses_min #courseFace_min {
+  height: 320px;
+}
+section#courses_min #short_descript_face_min p, section#courses_min #short_descript_group_min p {
+    padding-top: 26%;
+    font-size: 6.2vw;
+}
+
+
+section#courses_min #description_course_face_min span, section#courses_min #description_course_group_min span {
+    font-size: 3vw;
+}
+
+section#profile_section{
+  display:none;
+  }
+section#profile_section_min{
+  display:block;
+  height:100%;
+  margin-top:10%;
+}
+section#profile_section_min .image_profile_min {
+  padding-top:10%;
+}
+section#profile_section_min .description_profile_min h3 {
+    font-size: 4vw;
+    line-height:5vw;
+}
+
+
+}
+
+
+@media(min-width:769px) and (max-width:992px){
+header{
+  height:100%;
+  margin-top:5%;
+  margin-bottom:12%;
+
+}
+header h1{
+  font-size: 4vw;
+  letter-spacing: 2px;
+  }
+section#courses {
+  display:none;
+}
+section#courses_min {
+  display:block;
+}
+
+section#courses_min #courseGroup_min {
+  height: 374px;
+}
+section#courses_min #courseFace_min {
+  height: 374px;
+}
+section#courses_min #short_descript_face_min p, section#courses_min #short_descript_group_min p {
+    padding-top: 20%;
+    font-size: 6.2vw;
+}
+
+
+section#courses_min #description_course_face_min span, section#courses_min #description_course_group_min span {
+    font-size: 3vw;
+}
+
+
+section#profile_section{
+  display:none;
+}
+section#profile_section_min{
+  display:block;
+}
+section#profile_section_min .description_profile_min h3 {
+    font-size: 3.6vw;
+    line-height: 4.3vw;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+@media(min-width:993px) and (max-width:1099px){
+
+header{
+  height:100%;
+
+
+}
+header h1{
+  font-size: 3.6vw;
+  letter-spacing: 2px;
+  }
+
+section#courses {
+  display:block;
+}
+section#courses_min {
+  display:none;
+}
+#courses .course_button{
+  padding:2%;
+  font-size:1.2vw;
+  letter-spacing:1px;
+}
+
+section#courses #description_course_face span {
+    font-size: 2.2vw;
+}
+section#courses #description_course_group span {
+    font-size: 1.9vw;
+}
+
+section#profile_section{
+height:100%;
+  margin-bottom:10%;
+}
+section#profile_section .image_profile {
+  padding-top:22%;
+}
+
+
+section#profile_section .description_profile {
+    margin-top: 40%;
+}
+section#profile_section .description_profile h3 {
+    font-size: 2.2vw;
+    line-height:3.4vw;
+}
+}
+
+
+@media(min-width:1100px) and (max-width:1200px){
+
+header{
+  height:100%;
+
+
+}
+header h1{
+  font-size: 3.6vw;
+  letter-spacing: 2px;
+  }
+#courses .course_button{
+  padding:2%;
+  font-size:1.2vw;
+  letter-spacing:1px;
+}
+
+section#courses #description_course_face span {
+    font-size: 2.021vw;
+}
+section#courses #description_course_group span {
+    font-size: 1.8vw;
+}
+
+
+section#profile_section{
+  height:100%;
+  margin-bottom:10%;
+}
+section#profile_section .image_profile {
+  padding-top:30%;
+}
+section#profile_section .description_profile h3 {
+    font-size: 2.2vw;
+    line-height:3.5vw;
+}
+section#profile_section .description_profile {
+    margin-top:44%;
+}
+
+}
+
+
+
+
+
+@media(min-width:1201px) and (max-width:1600px){
+
+header h1{
+  font-size: 4.8vw;
+  letter-spacing: 1px;
+  }
+#courses .course_button{margin-top: 8%;}
+
+section#profile_section{
+  height:100%;
+  margin-bottom:10%;
+}
+section#profile_section .image_profile {
+  padding-top:34%;
+}
+section#profile_section .description_profile h3 {
+    font-size: 2.6vw;
+    line-height:4vw;
+}
+
+
+
+}
+
+
+
