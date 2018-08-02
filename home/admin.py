@@ -8,7 +8,7 @@ class SubscriberAdmin (admin.ModelAdmin):
     list_filter = ['name']
     search_fields = ['name']
 
-    fields = ["name","phone_number"]
+    fields = ["name","phone_number","email"]
 
 
 

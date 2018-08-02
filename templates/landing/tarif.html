@@ -1,0 +1,214 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Пирамида сервис</title>
+
+    <!-- Styles -->
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" type="text/css" />
+    <link href="{% static 'css/style.css' %}" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="{% static 'css/animate.css' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="{% static 'js/jquery-2.1.4.min.js' %}"></script>
+    <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <script src="https://use.fontawesome.com/ea603c10d8.js"></script>
+
+
+  </head>
+
+
+<body>
+
+
+  <div class="wrapper">
+    <div class="container-fluid full-image">
+    </div>
+    <div class="container-fluid nav-color">
+
+      <!-- NAVIGATION START -->
+      <nav class="main-navigation ">
+        <div class="row ">
+          <div class="col-xs-6 logo ">
+            <h1> Пирамида сервис </h1> </div>
+          <div class="col-xs-6">
+            <div class="mobile-menu-icon"><i class="fa fa-bars" aria-hidden="true"></i></div>
+            <div class="menu">
+              <ul class="main-menu">
+                <li><a class="menu-button" href="/">О компании</a></li>
+                <li><a class="menu-button " href="/tarif/">Тарифы</a></li>
+                <li><a class="menu-button" href="/services/">Услуги</a></li>
+                <li><a class="menu-button" href="/cars/">Автомобили</a></li>
+                <li><a class="menu-button" href="/contacts/">Контакты</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12">
+          <div class="responsive-menu"></div>
+        </div>
+
+      </nav>
+      <!-- NAVIGATION END -->
+    </div>
+
+  </div>
+
+
+
+
+
+<section id="first_content">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 col-md-9">
+         <div class="row">
+          <div class="col-lg-12 col-md-12">
+            <div class="title">
+              <h2>Тарифы на грузоперевозки и грузовое такси</h2>
+            </div>
+            <div class="description">
+              <span>Мы рады, что Вас заинтересовали наши услуги.
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-10 col-md-10 tarif_block">
+            <h3 class="text-center">Тарифы на грузовые автомобили</h3>
+            <div class="tarif_image">
+              <img src="{% static 'img/avto-tarif.png' %}" alt="tarif">
+            </div>
+            <div class="tarif_description">
+              <p>Самые доступные тарифы на все виды
+                грузоперевозок по Киеву и области.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 ">
+            <div class="description">
+              <span>Минимальный заказ 540 грн - Подача + два часа работы. Каждый последующий час 180 грн.
+                    Выезд за город подача 180 грн. + 8,5 грн.\км.
+              </span>
+              <p>Bозможен безналичный расчет!</p>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+      <div class="col-lg-3 col-md-3 right_bar">
+        <div class="row phones_row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="phone">
+              <div class="phone_image">
+                <img src="{% static 'img/lifecell.png' %}"  alt="phone">
+              </div>
+              <div class="phone_number">
+                <h4>073-153-27-72</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row phones_row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="phone">
+              <div class="phone_image">
+                <img src="{% static 'img/mts.png' %}"  alt="phone">
+              </div>
+              <div class="phone_number">
+                <h4>066-069-27-72</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row phones_row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="phone">
+              <div class="phone_image">
+                <img src="{% static 'img/kievstar.png' %}"  alt="phone">
+              </div>
+              <div class="phone_number">
+                <h4>068-961-27-72</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row sheduls_row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+            <div class="sheduls">
+              <h2>Работаем без выходных <br>
+                  и праздников!
+              </h2>
+              <h3>Принимаем заказы: <br>
+                  пн-вс с 8:00 - 20:00
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+        <div class="footer_block">
+          <span>© ПИРАМИДА СЕРВИС грузоперевозки 2018 | Украина, г. Киев. 066-069-27-72 | Делаем перевозку доступной!</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<!--
+
+<a href="tel:+4930555799904" id="popup__toggle" ><div class="circlephone" style="transform-origin: center;"></div><div class="circle-fill" style="transform-origin: center;"></div><div class="img-circle" style="transform-origin: center;"><div class="img-circleblock" style="transform-origin: center;"></div></div></a>
+
+
+<a href="tel:+4930555799904" mypage="" class="call-now mobile" rel="nofollow"><div
+class="mypage-alo-phone"><div
+class="animated infinite zoomIn mypage-alo-ph-circle"></div><div
+class="animated infinite pulse mypage-alo-ph-circle-fill"></div><div
+class="animated infinite tada mypage-alo-ph-img-circle"></div></div>
+</a>
+-->
+
+
+
+
+
+
+
+
+
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+<script src="{% static 'js/bootstrap.js' %}"></script>
+<script src="{% static 'js/wow.min.js' %}"></script>
+<script src="{% static 'js/nav.js' %}"></script>
+  <script src="{% static 'js/slider.js' %}"></script>
+<script src="{% static 'js/jquery.spincrement.min.js' %}"></script>
+
+
+
+
+
+
+<script>
+    new WOW().init();
+</script>
+  </body>
+</html>
