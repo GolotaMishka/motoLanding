@@ -1,5 +1,4 @@
 $(document).ready(function() {
-  $(document).on("scroll", onScroll);
   $(window).resize(function() {
     if ($(document).width() > 714)
       $(".responsive-menu").css("height", "0px");
@@ -9,7 +8,6 @@ $(document).ready(function() {
   $(".responsive-menu").append(menu);
   $(".responsive-menu ul").removeClass("main-menu");
   $(".responsive-menu ul").addClass("mobile-menu");
-  $(".menu ul li:first-child").addClass("active");
 
   $(".mobile-menu-icon").click(function() {
     var respMenu = $(".responsive-menu");
@@ -19,14 +17,7 @@ $(document).ready(function() {
     }, 100);
   });
 
-  $(".menu-button").click(function(event) {
-    event.preventDefault();
-    var href = $(this).attr('href');
-    scrollAmount = (href == "#section-home") ? 0 : $(href).offset().top - 120;
-    $('html, body').animate({
-      scrollTop: scrollAmount
-    }, 1000);
-  });
+
 
   function onScroll() {
     var scrollPos = $(document).scrollTop();
@@ -35,7 +26,6 @@ $(document).ready(function() {
       var currLink = $(this);
       var refElement = $(currLink).attr("href");
       if ($(refElement).position().top - 190 <= scrollPos && $(refElement).position().top - 190 + $(refElement).height() >= scrollPos) {
-        currLink.parent().addClass("active");
         progressWidth = $(".progress-bar").css("width");
         console.log(progressWidth);
           if (refElement == "#section-skills" && progressWidth == "0px")
@@ -55,8 +45,6 @@ $(document).ready(function() {
             }
 
 
-      } else {
-        currLink.parent().removeClass("active");
       }
     });
   }
